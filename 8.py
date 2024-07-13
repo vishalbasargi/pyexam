@@ -43,19 +43,5 @@ ax.set_zlabel("Z")
 plt.title("") 
 plt.show() 
 
-fig=plt.figure(figsize=(7,7))
-ax=fig.add_subplot(111,projection='3d')
-x=np.linspace(0,10,100)
-y=np.linspace(0,10,100)
-x,y=np.meshgrid(x,y)
-z=np.sin(np.sqrt(x*2+y*2))
-ax.plot_surface(x,y,z,cmap=cm.viridis)
-ax.set_title("sonu")
-ax.set_xlabel("x")
-ax.set_ylabel('Y')
-ax.set_zlabel('intensity')
-plt.show()
-
-
 
 #pip3 install numpy matplotlib pillow
