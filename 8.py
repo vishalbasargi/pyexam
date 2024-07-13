@@ -43,5 +43,4 @@ ax.set_zlabel("Z")
 plt.title("") 
 plt.show() 
 
-
 #pip3 install numpy matplotlib pillow
